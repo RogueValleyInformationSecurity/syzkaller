@@ -10,6 +10,7 @@ import (
 	"github.com/google/syzkaller/pkg/config"
 	. "github.com/google/syzkaller/pkg/mgrconfig"
 	"github.com/google/syzkaller/vm/gce"
+	"github.com/google/syzkaller/vm/proxmox"
 	"github.com/google/syzkaller/vm/proxyapp"
 	"github.com/google/syzkaller/vm/qemu"
 )
@@ -33,6 +34,8 @@ func TestCanned(t *testing.T) {
 				vmCfg = new(gce.Config)
 			case "proxyapp":
 				vmCfg = new(proxyapp.Config)
+			case "proxmox":
+				vmCfg = new(proxmox.Config)
 			default:
 				t.Fatalf("unknown VM type: %v", cfg.Type)
 			}

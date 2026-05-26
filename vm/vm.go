@@ -37,6 +37,7 @@ import (
 	_ "github.com/google/syzkaller/vm/gce"
 	_ "github.com/google/syzkaller/vm/gvisor"
 	_ "github.com/google/syzkaller/vm/isolated"
+	_ "github.com/google/syzkaller/vm/proxmox"
 	_ "github.com/google/syzkaller/vm/proxyapp"
 	_ "github.com/google/syzkaller/vm/qemu"
 	_ "github.com/google/syzkaller/vm/starnix"

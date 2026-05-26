@@ -21,6 +21,7 @@ require (
 	github.com/google/uuid v1.6.0
 	github.com/gorilla/handlers v1.5.2
 	github.com/ianlancetaylor/demangle v0.0.0-20260505044615-1ff4bf46051f
+	github.com/luthermonson/go-proxmox v0.5.1
 	github.com/modelcontextprotocol/go-sdk v1.6.0
 	github.com/prometheus/client_golang v1.23.2
 	github.com/sergi/go-diff v1.4.0
@@ -93,6 +94,7 @@ require (
 	github.com/breml/bidichk v0.3.3 // indirect
 	github.com/breml/errchkjson v0.4.1 // indirect
 	github.com/brunoga/deep v1.2.5 // indirect
+	github.com/buger/goterm v1.0.4 // indirect
 	github.com/butuzov/ireturn v0.4.0 // indirect
 	github.com/butuzov/mirror v1.3.0 // indirect
 	github.com/catenacyber/perfsprint v0.10.0 // indirect
@@ -111,6 +113,8 @@ require (
 	github.com/dave/dst v0.27.3 // indirect
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
 	github.com/denis-tingaikin/go-header v0.5.0 // indirect
+	github.com/diskfs/go-diskfs v1.9.3 // indirect
+	github.com/djherbis/times v1.6.0 // indirect
 	github.com/dlclark/regexp2 v1.11.5 // indirect
 	github.com/dvyukov/go-fuzz v0.0.0-20240924070022-e577bee5275c // indirect
 	github.com/emicklei/go-restful/v3 v3.13.0 // indirect
@@ -194,6 +198,7 @@ require (
 	github.com/jedib0t/go-pretty/v6 v6.6.7 // indirect
 	github.com/jgautheron/goconst v1.8.2 // indirect
 	github.com/jingyugao/rowserrcheck v1.1.1 // indirect
+	github.com/jinzhu/copier v0.3.4 // indirect
 	github.com/jjti/go-spancheck v0.6.5 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/julz/importas v0.2.0 // indirect
@@ -220,6 +225,7 @@ require (
 	github.com/leonklingele/grouper v1.1.2 // indirect
 	github.com/lucasb-eyer/go-colorful v1.2.0 // indirect
 	github.com/macabu/inamedparam v0.2.0 // indirect
+	github.com/magefile/mage v1.14.0 // indirect
 	github.com/manuelarte/embeddedstructfieldcheck v0.4.0 // indirect
 	github.com/manuelarte/funcorder v0.5.0 // indirect
 	github.com/maratori/testableexamples v1.0.1 // indirect
